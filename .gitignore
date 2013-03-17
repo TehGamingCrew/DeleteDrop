@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #################
 ## Eclipse
 #################
@@ -161,3 +162,11 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+=======
+*.class
+bin
+# Package Files #
+*.jar
+*.war
+*.ear
+>>>>>>> f44edccae8b60b5bed313127d6ea61d6613cb03e
