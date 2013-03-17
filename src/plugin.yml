@@ -1,0 +1,18 @@
+name: DeleteDrop
+version: 1.0
+main: com.tehgamingcrew.bukkit.deletedrop.DeleteDrop
+author: Jasper9041
+description: A plugin that deletes an item when a player drops one.
+commands:
+    deletedrop:
+    	alias: dd
+        description: Toggle deletedrop mode
+        usage: /dd
+permissions:
+    deletedrop.toggle.self:
+        default: flase
+        description: Allow use of /deledrop.
+    deletedrop.toggle.others:
+        default: false
+        description: Allow use of /deletedrop <player>.
+depend: [Vault]
